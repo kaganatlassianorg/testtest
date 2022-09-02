@@ -27,6 +27,7 @@ jobs:
         uses: avakar/create-deployment@v1.0.2
         with:
           auto_merge: false
+          environment: Production
         env:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
 
